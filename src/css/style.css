@@ -10862,7 +10862,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
   position: absolute;
   height: 611px;
   width: 611px;
-  background: var(--theme-color);
+  background: transparent;
   border-radius: 50%;
   bottom: -65px;
   left: -65px;
@@ -11752,7 +11752,8 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 }
 
 @media (max-width: 1199px) {
-  .hero-style8 .sub-title:after {
+  .hero-style8 .sub-title
+   {
     display: none;
   }
 }
@@ -39428,3 +39429,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* thebabulalchoudhay updates*/
+.icon-masking img {
+  height: 93px !important;
+}
+
+
+
+
