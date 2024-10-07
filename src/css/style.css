@@ -39436,5 +39436,30 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 
+.price-area10 {
+  margin-bottom: 20px; /* Reduce this value to decrease the space after the pricing section */
+}
 
+#project-sec {
+  margin-top: 20px; /* Reduce this value to decrease the space before the project section */
+}
+
+.space {
+  padding-top: 30px;  /* Adjust this value as needed */
+  padding-bottom: 30px; /* Adjust this value as needed */
+}
+
+
+.breadcumb-wrapper {
+  padding: 50px 0; /* Reduce if too much padding */
+}
+
+.breadcumb-title {
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.title-area {
+  margin-bottom: 0; /* Ensure no extra margin */
+}
+  
 
