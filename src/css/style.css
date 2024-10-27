@@ -18953,8 +18953,8 @@ span.select2-selection.select2-selection--single:focus {
 .down-option-area {
   position: relative;
   border-radius: 30px;
-  border: 1px solid #E3E7F0;
-  background: #F8FAFF;
+  border: 1px solid #000000;
+  background: #684DF4;
   padding: 0 30px;
   margin-top: 30px;
   /* Medium devices */
@@ -27000,8 +27000,8 @@ span.select2-selection.select2-selection--single:focus {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 90px;
-  -webkit-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
+  -webkit-transition:none;
+  transition: none;
 }
 
 .brand-item a {
@@ -27136,7 +27136,7 @@ span.select2-selection.select2-selection--single:focus {
 /* brand 11 end -------------------*/
 /* brand 12 start ---------------------*/
 .brand-area12 {
-  background-color: #1C1C25;
+  background-color: #E1EAFF;
   padding: 30px 0;
 }
 
@@ -34131,12 +34131,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .price-box.style6 .offer-feature .feature {
-  background-color: var(--theme-color);
+  background-color: white;
   border-radius: 4px;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  color: var(--white-color);
+  color:#000000;
   padding: 5px 20px;
   display: inline-block;
   margin-bottom: 40px;
@@ -39462,4 +39462,51 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 0; /* Ensure no extra margin */
 }
   
+
+
+
+/* edit by manan 
+ */
+
+ .byted-highlight {
+  font-family: 'Poppins', sans-serif  ; /* Change to your desired font */
+  color: #684DF4; /* Change to your desired color */
+  font-weight: bold; /* Optional: make it bold */
+  font-size: 3.5rem; /* Adjust size if needed */
+}
+
+
+.cta-area9 {
+  border-left: 5px solid #AEBEF6; /* Adjust the color and size as needed */
+  border-right: 5px solid #AEBEF6; /* Same as the front (left) border */
+  border-bottom: 5px solid #AEBEF6; /* Same as the front (left) border */
+  padding: 20px; /* Add padding for spacing */
+  margin-bottom: 30px; /* Add some margin at the bottom */
+}
+
+.cta-title-area2 {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5; /* Optional: add background for the box */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+
+/* for the  pricing section by manan  */
+
+.offer-feature {
+  position: relative;
+  display: inline-block; /* Ensure it stays inline */
+}
+
+.feature {
+  display: block;
+  text-align: center;
+  padding: 5px 10px; /* Adjust padding if needed */
+  background-color: #eee; /* Adjust background as needed */
+  border-radius: 50%; /* Creates the circular shape */
+  position: relative;
+  left: -10px; /* Move it to the left */
+}
+
 
